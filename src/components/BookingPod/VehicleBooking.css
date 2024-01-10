@@ -1,0 +1,46 @@
+.booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-wrap: wrap; /* Eklendi: Form elemanları bir sıra doldurduktan sonra alt satıra geçer */
+    justify-content: space-between; /* Eklendi: Form elemanları arasında boşluk bırakır */
+  }
+  
+  .booking-form label {
+    flex: 0 0 48%; /* Eklendi: Etiketler yatayda 48%'lik genişliğe sahip olur */
+    margin-bottom: 10px;
+  }
+  
+  .booking-form select,
+  .booking-form input[type="text"],
+  .booking-form input[type="date"],
+  .booking-form input[type="time"],
+  .booking-form input[type="checkbox"] {
+    width: 100%; /* Eklendi: Giriş elemanları tam genişlikte olur */
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .booking-form button[type="submit"] {
+    width: 100%; /* Eklendi: Buton tam genişlikte olur */
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .booking-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  
+  
